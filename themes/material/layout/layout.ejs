@@ -49,6 +49,15 @@
   <!-- Tile icon for Win8 (144x144) -->
   <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
 
+  <!-- rss -->
+  <% if (theme.rss){ %>
+  <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+  <% } %>
+  <!-- favicon -->
+  <% if (theme.favicon){ %>
+    <link rel="icon" href="<%- theme.favicon %>">
+  <% } %>
+
   <%- css('css/main') %>
 
   <%- js('polymer/webcomponentsjs/webcomponents-lite') %>
@@ -109,17 +118,13 @@
 
         <!-- Main Content -->
         <div class="content">
-          <section data-route="home">
+          <section >
               <paper-material elevation="1">
 
-
-                <p class="paper-font-body2">Looking for more Web App layouts? Check out our <a href="https://github.com/PolymerElements/app-layout-templates">layouts</a> collection. You can also <a href="http://polymerelements.github.io/app-layout-templates/">preview</a> them live.</p>
+                <section id="main"><%- body %></section>
+                
               </paper-material>
               
-              <paper-material elevation="1">
-                <p class="paper-font-body2">This is another card.</p>
-              </paper-material>
-
               <paper-material elevation="1" class="paper-font-body2">
                 <h1 id="license">License</h1>
                 <p>THIS SOFTWARE </p>
