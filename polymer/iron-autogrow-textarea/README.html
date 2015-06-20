@@ -1,0 +1,14 @@
+<h1 id="iron-autogrow-textarea">iron-autogrow-textarea</h1><p><code>iron-autogrow-textarea</code> is an element containing a textarea that grows in height as more<br>lines of input are entered. Unless an explicit height or the <code>maxRows</code> property is set, it will<br>never scroll.</p>
+<p>Example:</p>
+<pre><code><span class="tag">&lt;<span class="title">iron-autogrow-textarea</span> <span class="attribute">id</span>=<span class="value">"a1"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">textarea</span> <span class="attribute">id</span>=<span class="value">"t1"</span>&gt;</span><span class="tag">&lt;/<span class="title">textarea</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-autogrow-textarea</span>&gt;</span>
+</code></pre><p>Because the <code>textarea</code>‘s <code>value</code> property is not observable, you should use<br>this element’s <code>bind-value</code> instead for imperative updates. Alternatively, if<br>you do set the <code>textarea</code>‘s <code>value</code> imperatively, you must also call <code>update</code><br>to notify this element the value has changed.</p>
+<pre><code><span class="label">Example</span>:
+    <span class="comment">/* preferred, using the example HTML above*/</span>
+    <span class="literal">a1</span>.<span class="keyword">bindValue </span>= <span class="string">'some\ntext'</span><span class="comment">;</span>
+
+    <span class="comment">/* alternatively, */</span>
+    t1.value = <span class="string">'some\ntext'</span><span class="comment">;</span>
+    <span class="literal">a1</span>.update()<span class="comment">;</span>
+</code></pre>

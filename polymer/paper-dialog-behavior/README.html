@@ -1,0 +1,13 @@
+<h1 id="paper-dialog-behavior">paper-dialog-behavior</h1><p><code>paper-dialog-behavior</code> implements behavior related to a Material Design dialog. Use this behavior<br>and include <code>paper-dialog-common.css</code> in your element to implement a dialog.</p>
+<p><code>paper-dialog-common.css</code> provide styles for a header, content area, and an action area for buttons.<br>Use the <code>&lt;h2&gt;</code> tag for the header and the <code>buttons</code> class for the action area. You can use the<br><code>paper-dialog-scrollable</code> element (in its own repository) if you need a scrolling content area.</p>
+<p>Use the <code>dialog-dismiss</code> and <code>dialog-confirm</code> attributes on interactive controls to close the<br>dialog.</p>
+<p>For example, if <code>&lt;paper-dialog-impl&gt;</code> implements this behavior:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-dialog-impl</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">h2</span>&gt;</span>Header<span class="tag">&lt;/<span class="title">h2</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span>&gt;</span>Dialog body<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"buttons"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">paper-button</span> <span class="attribute">dialog-dismiss</span>&gt;</span>Cancel<span class="tag">&lt;/<span class="title">paper-button</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">paper-button</span> <span class="attribute">dialog-confirm</span>&gt;</span>Accept<span class="tag">&lt;/<span class="title">paper-button</span>&gt;</span>
+    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">paper-dialog-impl</span>&gt;</span>
+</code></pre>

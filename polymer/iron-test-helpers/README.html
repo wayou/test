@@ -1,0 +1,16 @@
+<h1 id="iron-test-helpers">iron-test-helpers</h1><p>Utility classes to make testing easier.</p>
+<h2 id="Mock_Interactions">Mock Interactions</h2><p>This is a set of methods to simulate mouse or keyboard interaction with an element. Include <code>mock-interactions.js</code> and then use them like so:</p>
+<pre><code class="javascript">test(<span class="string">'can be triggered with space'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">done</span>) </span>{
+  button.addEventListener(<span class="string">'keydown'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+    done();
+  });
+  MockInteractions.pressSpace(button);
+});
+
+test(<span class="string">'can be clicked'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">done</span>) </span>{
+  button.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+    done();
+  });
+  MockInteractions.down(button);
+});
+</code></pre>

@@ -1,0 +1,19 @@
+<h1 id="iron-iconset">iron-iconset</h1><p>The <code>iron-iconset</code> element allows users to define their own icon sets.<br>The <code>src</code> property specifies the url of the icon image. Multiple icons may<br>be included in this image and they may be organized into rows.<br>The <code>icons</code> property is a space separated list of names corresponding to the<br>icons. The names must be ordered as the icons are ordered in the icon image.<br>Icons are expected to be square and are the size specified by the <code>size</code><br>property. The <code>width</code> property corresponds to the width of the icon image<br>and must be specified if icons are arranged into multiple rows in the image.</p>
+<p>All <code>iron-iconset</code> elements are available for use by other <code>iron-iconset</code><br>elements via a database keyed by id. Typically, an element author that wants<br>to support a set of custom icons uses a <code>iron-iconset</code> to retrieve<br>and use another, user-defined iconset.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">iron-iconset</span> <span class="attribute">id</span>=<span class="value">"my-icons"</span> <span class="attribute">src</span>=<span class="value">"my-icons.png"</span> <span class="attribute">width</span>=<span class="value">"96"</span> <span class="attribute">size</span>=<span class="value">"24"</span>
+    <span class="attribute">icons</span>=<span class="value">"location place starta stopb bus car train walk"</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-iconset</span>&gt;</span>
+</code></pre>
+<p>This will automatically register the icon set “my-icons” to the iconset<br>database.  To use these icons from within another element, make a<br><code>iron-iconset</code> element and call the <code>byId</code> method to retrieve a<br>given iconset. To apply a particular icon to an element, use the<br><code>applyIcon</code> method. For example:</p>
+<pre><code class="javascript">iconset.applyIcon(iconNode, <span class="string">'car'</span>);
+</code></pre>
+<p>Themed icon sets are also supported. The <code>iron-iconset</code> can contain child<br><code>property</code> elements that specify a theme with an offsetX and offsetY of the<br>theme within the icon resource. For example.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">iron-iconset</span> <span class="attribute">id</span>=<span class="value">"my-icons"</span> <span class="attribute">src</span>=<span class="value">"my-icons.png"</span> <span class="attribute">width</span>=<span class="value">"96"</span> <span class="attribute">size</span>=<span class="value">"24"</span>
+    <span class="attribute">icons</span>=<span class="value">"location place starta stopb bus car train walk"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">property</span> <span class="attribute">theme</span>=<span class="value">"special"</span> <span class="attribute">offsetX</span>=<span class="value">"256"</span> <span class="attribute">offsetY</span>=<span class="value">"24"</span>&gt;</span><span class="tag">&lt;/<span class="title">property</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-iconset</span>&gt;</span>
+</code></pre>
+<p>Then a themed icon can be applied like this:</p>
+<pre><code class="javascript">iconset.applyIcon(iconNode, <span class="string">'car'</span>, <span class="string">'special'</span>);
+</code></pre>

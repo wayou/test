@@ -1,0 +1,21 @@
+<h1 id="paper-fab">paper-fab</h1><p>Material Design: <a href="http://www.google.com/design/spec/components/buttons.html">Button</a></p>
+<p><code>paper-fab</code> is a floating action button. It contains an image placed in the center and<br>comes in two sizes: regular size and a smaller size by applying the attribute <code>mini</code>. When<br>the user touches the button, a ripple effect emanates from the center of the button.</p>
+<p>You may import <code>iron-icons</code> to use with this element, or provide a URL to a custom icon.<br>See <code>iron-iconset</code> for more information about how to use a custom icon set.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">link</span> <span class="attribute">href</span>=<span class="value">"path/to/iron-icons/iron-icons.html"</span> <span class="attribute">rel</span>=<span class="value">"import"</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">paper-fab</span> <span class="attribute">icon</span>=<span class="value">"add"</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-fab</span>&gt;</span>
+<span class="tag">&lt;<span class="title">paper-fab</span> <span class="attribute">mini</span> <span class="attribute">icon</span>=<span class="value">"favorite"</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-fab</span>&gt;</span>
+<span class="tag">&lt;<span class="title">paper-fab</span> <span class="attribute">src</span>=<span class="value">"star.png"</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-fab</span>&gt;</span>
+</code></pre>
+<h2 id="Styling">Styling</h2><p>Style the button with CSS as you would a normal DOM element. If you are using the icons<br>provided by <code>iron-icons</code>, the icon will inherit the foreground color of the button.</p>
+<pre><code class="html"><span class="comment">&lt;!-- make a blue "cloud" button --&gt;</span>
+<span class="tag">&lt;<span class="title">paper-fab</span> <span class="attribute">icon</span>=<span class="value">"cloud"</span> <span class="attribute">style</span>=<span class="value">"color: blue;"</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-fab</span>&gt;</span>
+</code></pre>
+<p>By default, the ripple is the same color as the foreground at 25% opacity. You may<br>customize the color using this selector:</p>
+<pre><code class="css"><span class="comment">/* make #my-button use a blue ripple instead of foreground color */</span>
+<span class="id">#my-button</span><span class="pseudo">::shadow</span> <span class="id">#ripple</span> <span class="rules">{
+  <span class="rule"><span class="attribute">color</span>:<span class="value"> blue</span></span>;
+}</span>
+</code></pre>
+<p>The opacity of the ripple is not customizable via CSS.</p>

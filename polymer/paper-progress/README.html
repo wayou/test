@@ -1,0 +1,24 @@
+<h1 id="paper-progress">paper-progress</h1><p>The progress bars are for situations where the percentage completed can be<br>determined. They give users a quick sense of how much longer an operation<br>will take.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-progress</span> <span class="attribute">value</span>=<span class="value">"10"</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-progress</span>&gt;</span>
+</code></pre>
+<p>There is also a secondary progress which is useful for displaying intermediate<br>progress, such as the buffer level during a streaming playback progress bar.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-progress</span> <span class="attribute">value</span>=<span class="value">"10"</span> <span class="attribute">secondaryProgress</span>=<span class="value">"30"</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-progress</span>&gt;</span>
+</code></pre>
+<p>Styling progress bar:</p>
+<p>To change the active progress bar color:</p>
+<pre><code class="css"><span class="tag">paper-progress</span> <span class="rules">{
+  <span class="rule"><span class="attribute">--paper-progress-active-color</span>:<span class="value"> <span class="hexcolor">#e91e63</span></span></span>;
+}</span>
+</code></pre>
+<p>To change the secondary progress bar color:</p>
+<pre><code class="css"><span class="tag">paper-progress</span> <span class="rules">{
+  <span class="rule"><span class="attribute">--paper-progress-secondary-color</span>:<span class="value"> <span class="hexcolor">#f8bbd0</span></span></span>;
+}</span>
+</code></pre>
+<p>To change the progress bar background color:</p>
+<pre><code class="css"><span class="tag">paper-progress</span> <span class="rules">{
+  <span class="rule"><span class="attribute">--paper-progress-container-color</span>:<span class="value"> <span class="hexcolor">#64ffda</span></span></span>;
+}</span>
+</code></pre>

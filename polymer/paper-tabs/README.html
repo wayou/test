@@ -1,0 +1,37 @@
+<h1 id="paper-tabs">paper-tabs</h1><p><code>paper-tabs</code> makes it easy to explore and switch between different views or functional aspects of<br>an app, or to browse categorized data sets.</p>
+<p>Use <code>selected</code> property to get or set the selected tab.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-tabs</span> <span class="attribute">selected</span>=<span class="value">"0"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span>&gt;</span>TAB 1<span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span>&gt;</span>TAB 2<span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span>&gt;</span>TAB 3<span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">paper-tabs</span>&gt;</span>
+</code></pre>
+<p>See <a href="#paper-tab">paper-tab</a> for more information about<br><code>paper-tab</code>.</p>
+<p>A common usage for <code>paper-tabs</code> is to use it along with <code>iron-pages</code> to switch<br>between different views.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-tabs</span> <span class="attribute">selected</span>=<span class="value">"{{selected}}"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span>&gt;</span>Tab 1<span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span>&gt;</span>Tab 2<span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span>&gt;</span>Tab 3<span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">paper-tabs</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">iron-pages</span> <span class="attribute">selected</span>=<span class="value">"{{selected}}"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>Page 1<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>Page 2<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>Page 3<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-pages</span>&gt;</span>
+</code></pre>
+<p>To use links in tabs, add <code>link</code> attribute to <code>paper-tab</code> and put an <code>&lt;a&gt;</code><br>element in <code>paper-tab</code>.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-tabs</span> <span class="attribute">selected</span>=<span class="value">"0"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span> <span class="attribute">link</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#link1"</span> <span class="attribute">class</span>=<span class="value">"horizontal center-center layout"</span>&gt;</span>TAB ONE<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+  <span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span> <span class="attribute">link</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#link2"</span> <span class="attribute">class</span>=<span class="value">"horizontal center-center layout"</span>&gt;</span>TAB TWO<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+  <span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">paper-tab</span> <span class="attribute">link</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#link3"</span> <span class="attribute">class</span>=<span class="value">"horizontal center-center layout"</span>&gt;</span>TAB THREE<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+  <span class="tag">&lt;/<span class="title">paper-tab</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">paper-tabs</span>&gt;</span>
+</code></pre>

@@ -1,0 +1,25 @@
+<h1 id="iron-collapse">iron-collapse</h1><p><code>iron-collapse</code> creates a collapsible block of content.  By default, the content<br>will be collapsed.  Use <code>opened</code> or <code>toggle()</code> to show/hide the content.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">button</span> <span class="attribute">on-click</span>=<span class="value">"{{toggle}}"</span>&gt;</span>toggle collapse<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">iron-collapse</span> <span class="attribute">id</span>=<span class="value">"collapse"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>Content goes here...<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-collapse</span>&gt;</span>
+</code></pre>
+<pre><code class="javascript">toggle: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+  <span class="keyword">this</span>.$.collapse.toggle();
+}
+</code></pre>
+<p><code>iron-collapse</code> adjusts the height/width of the collapsible element to show/hide<br>the content.  So avoid putting padding/margin/border on the collapsible directly,<br>and instead put a div inside and style that.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">style</span>&gt;</span><span class="css">
+  <span class="class">.collapse-content</span> <span class="rules">{
+    <span class="rule"><span class="attribute">padding</span>:<span class="value"> <span class="number">15px</span></span></span>;
+    <span class="rule"><span class="attribute">border</span>:<span class="value"> <span class="number">1px</span> solid <span class="hexcolor">#dedede</span></span></span>;
+  }</span>
+</span><span class="tag">&lt;/<span class="title">style</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">iron-collapse</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"collapse-content"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span>&gt;</span>Content goes here...<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+  <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-collapse</span>&gt;</span>
+</code></pre>

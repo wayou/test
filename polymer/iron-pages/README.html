@@ -1,0 +1,15 @@
+<h1 id="iron-pages">iron-pages</h1><p><code>iron-pages</code> is used to select one of its children to show. One use is to cycle through a list of<br>children “pages”.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">iron-pages</span> <span class="attribute">selected</span>=<span class="value">"0"</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>One<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>Two<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">div</span>&gt;</span>Three<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">iron-pages</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript">
+  <span class="built_in">document</span>.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>{
+    <span class="keyword">var</span> pages = <span class="built_in">document</span>.querySelector(<span class="string">'iron-pages'</span>);
+    pages.selectNext();
+  });
+</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+</code></pre>

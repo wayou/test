@@ -1,0 +1,11 @@
+<h1 id="iron-ajax">iron-ajax</h1><p>The <code>iron-ajax</code> element exposes network request functionality.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">iron-ajax</span>
+    <span class="attribute">auto</span>
+    <span class="attribute">url</span>=<span class="value">"http://gdata.youtube.com/feeds/api/videos/"</span>
+    <span class="attribute">params</span>=<span class="value">'{"alt":"json", "q":"chrome"}'</span>
+    <span class="attribute">handle-as</span>=<span class="value">"json"</span>
+    <span class="attribute">on-response</span>=<span class="value">"handleResponse"</span>&gt;</span><span class="tag">&lt;/<span class="title">iron-ajax</span>&gt;</span>
+</code></pre>
+<p>With <code>auto</code> set to <code>true</code>, the element performs a request whenever<br>its <code>url</code>, <code>params</code> or <code>body</code> properties are changed. Automatically generated<br>requests will be debounced in the case that multiple attributes are changed<br>sequentially.</p>
+<p>Note: The <code>params</code> attribute must be double quoted JSON.</p>
+<p>You can trigger a request explicitly by calling <code>generateRequest</code> on the<br>element.</p>

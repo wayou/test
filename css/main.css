@@ -1,0 +1,10 @@
+/**
+* taken from polymer layout template nav+cards
+* http://polymerelements.github.io/app-layout-templates/
+*/
+
+body {
+  background: #fafafa;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}

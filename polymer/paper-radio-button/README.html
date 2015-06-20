@@ -1,0 +1,18 @@
+<h1 id="paper-radio-button">paper-radio-button</h1><p><code>paper-radio-button</code> is a button that can be either checked or unchecked.<br>User can tap the radio button to check it.  But it cannot be unchecked by<br>tapping once checked.</p>
+<p>Use <code>paper-radio-group</code> to group a set of radio buttons. When radio buttons<br>are inside a radio group, only one radio button in the group can be checked.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-radio-button</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-radio-button</span>&gt;</span>
+</code></pre>
+<p>Styling a radio button:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">style</span> <span class="attribute">is</span>=<span class="value">"custom-style"</span>&gt;</span><span class="css">
+  <span class="pseudo">:root</span> <span class="rules">{
+    <span class="comment">/* Unchecked state colors. */</span>
+    <span class="rule"><span class="attribute">--paper-radio-button-unchecked-color</span>:<span class="value"> <span class="hexcolor">#5a5a5a</span></span></span>;
+    <span class="rule"><span class="attribute">--paper-radio-button-unchecked-ink-color</span>:<span class="value"> <span class="hexcolor">#5a5a5a</span></span></span>;
+
+    <span class="comment">/* Checked state colors. */</span>
+    <span class="rule"><span class="attribute">--paper-radio-button-checked-color</span>:<span class="value"> <span class="hexcolor">#009688</span></span></span>;
+    <span class="rule"><span class="attribute">--paper-radio-button-checked-ink-color</span>:<span class="value"> <span class="hexcolor">#0f9d58</span></span></span>;
+  }</span>
+</span><span class="tag">&lt;/<span class="title">style</span>&gt;</span>
+</code></pre>

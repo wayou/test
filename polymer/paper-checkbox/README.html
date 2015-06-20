@@ -1,0 +1,19 @@
+<h1 id="paper-checkbox">paper-checkbox</h1><p><code>paper-checkbox</code> is a button that can be either checked or unchecked.  User<br>can tap the checkbox to check or uncheck it.  Usually you use checkboxes<br>to allow user to select multiple options from a set.  If you have a single<br>ON/OFF option, avoid using a single checkbox and use <code>paper-toggle-button</code><br>instead.</p>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">paper-checkbox</span>&gt;</span>label<span class="tag">&lt;/<span class="title">paper-checkbox</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">paper-checkbox</span> <span class="attribute">checked</span>&gt;</span>label<span class="tag">&lt;/<span class="title">paper-checkbox</span>&gt;</span>
+</code></pre>
+<p>Styling a checkbox:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">style</span> <span class="attribute">is</span>=<span class="value">"custom-style"</span>&gt;</span><span class="css">
+  <span class="tag">paper-checkbox</span> <span class="rules">{
+    <span class="comment">/* Unhecked state colors. */</span>
+    <span class="rule"><span class="attribute">--paper-checkbox-unchecked-color</span>:<span class="value"> <span class="hexcolor">#5a5a5a</span></span></span>;
+    <span class="rule"><span class="attribute">--paper-checkbox-unchecked-ink-color</span>:<span class="value"> <span class="hexcolor">#5a5a5a</span></span></span>;
+
+    <span class="comment">/* Checked state colors. */</span>
+    <span class="rule"><span class="attribute">--paper-checkbox-checked-color</span>:<span class="value"> <span class="hexcolor">#009688</span></span></span>;
+    <span class="rule"><span class="attribute">--paper-checkbox-checked-ink-color</span>:<span class="value"> <span class="hexcolor">#009688</span></span></span>;
+  }</span>
+</span><span class="tag">&lt;/<span class="title">style</span>&gt;</span>
+</code></pre>

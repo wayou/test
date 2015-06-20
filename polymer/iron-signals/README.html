@@ -1,0 +1,9 @@
+<h1 id="iron-signals">iron-signals</h1><p><code>iron-signals</code> provides basic publish-subscribe functionality.</p>
+<p>Note: avoid using <code>iron-signals</code> whenever you can use<br>a controller (parent element) to mediate communication<br>instead.</p>
+<p>To send a signal, fire a custom event of type <code>iron-signal</code>, with<br>a detail object containing <code>name</code> and <code>data</code> fields.</p>
+<pre><code class="javascript"><span class="keyword">this</span>.fire(<span class="string">'iron-signal'</span>, {name: <span class="string">'hello'</span>, data: <span class="literal">null</span>});
+</code></pre>
+<p>To receive a signal, listen for <code>iron-signal-&lt;name&gt;</code> event on a<br><code>iron-signals</code> element.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">iron-signals</span> <span class="attribute">on-iron-signal-hello</span>=<span class="value">"{{helloSignal}}"</span>&gt;</span>
+</code></pre>
+<p>You can fire a signal event from anywhere, and all<br><code>iron-signals</code> elements will receive the event, regardless<br>of where they are in DOM.</p>

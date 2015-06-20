@@ -1,0 +1,23 @@
+<h1 id="paper-spinner">paper-spinner</h1><p>Element providing material design circular spinner.</p>
+<h5 id="Example">Example</h5><pre><code class="html"><span class="tag">&lt;<span class="title">paper-spinner</span> <span class="attribute">active</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-spinner</span>&gt;</span>
+</code></pre>
+<p>The default spinner cycles between four layers of colors; by default they are<br>blue, red, yellow and green. It can be customized so that it uses one color only<br>by setting all the layer colors to the same value.</p>
+<h5 id="Example-1">Example</h5><pre><code class="html"><span class="tag">&lt;<span class="title">style</span> <span class="attribute">is</span>=<span class="value">"custom-style"</span>&gt;</span><span class="css">
+  <span class="tag">paper-spinner</span> <span class="class">.rainbow</span> <span class="rules">{
+    --paper-spinner-layer-1<span class="rule"><span class="attribute">-color</span>:<span class="value"> yellow</span></span>;
+    --paper-spinner-layer-2<span class="rule"><span class="attribute">-color</span>:<span class="value"> red</span></span>;
+    --paper-spinner-layer-3<span class="rule"><span class="attribute">-color</span>:<span class="value"> blue</span></span>;
+    --paper-spinner-layer-4<span class="rule"><span class="attribute">-color</span>:<span class="value"> green</span></span>;
+  }</span>
+
+  <span class="tag">paper-spinner</span> <span class="class">.red</span> <span class="rules">{
+    --paper-spinner-layer-1<span class="rule"><span class="attribute">-color</span>:<span class="value"> red</span></span>;
+    --paper-spinner-layer-2<span class="rule"><span class="attribute">-color</span>:<span class="value"> red</span></span>;
+    --paper-spinner-layer-3<span class="rule"><span class="attribute">-color</span>:<span class="value"> red</span></span>;
+    --paper-spinner-layer-4<span class="rule"><span class="attribute">-color</span>:<span class="value"> red</span></span>;
+  }</span>
+</span><span class="tag">&lt;/<span class="title">style</span>&gt;</span>
+</code></pre>
+<p>Alt attribute should be set to provide adequate context for accessibility. If not provided,<br>it defaults to ‘loading’.<br>Empty alt can be provided to mark the element as decorative if alternative content is provided<br>in another form (e.g. a text block following the spinner).</p>
+<h5 id="Example-2">Example</h5><pre><code class="html"><span class="tag">&lt;<span class="title">paper-spinner</span> <span class="attribute">alt</span>=<span class="value">"Loading contacts list"</span> <span class="attribute">active</span>&gt;</span><span class="tag">&lt;/<span class="title">paper-spinner</span>&gt;</span>
+</code></pre>
