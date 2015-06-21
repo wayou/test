@@ -10,7 +10,6 @@
 
   <div class="flex"></div>
   <!-- <paper-icon-button icon="search"></paper-icon-button> -->
-  <!-- <paper-icon-button icon="more-vert"></paper-icon-button> -->
 
   <!-- Application sub title -->
   <!-- index -->
@@ -36,46 +35,63 @@
   <!-- index -->
   <% if( pageType == 'index') {%>
 		<% page.posts.each(function(post){ %>
-			<paper-material elevation="1" class="paper-font-body2">
-				<h1> <a class="post-title" href="<%= url_for(post.path) %>"><%= post.title %></a> </h1>
-				<p><%- page.excerpt %></p>
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line>
+              <div>
+                <h1>
+                  <a class="post-title" href="<%= url_for(post.path) %>"><%= post.title %></a>
+                  <span class="post-time"><%= date(post.date) %></span>
+                </h1>
+              </div>
+              <div secondary>
+              <%- post.excerpt %>
+              <% if (theme.excerpt_link){ %>
+                  <a class="article-more-link" href="<%- url_for(post.path) %>"> MORE... </a>
+              <% } %>
+              </div>
+            </paper-item-body>
+          </paper-item>
+
 			</paper-material>
 		<% }) %>
   <!-- archives -->
   <% } else if( pageType == 'archives') {%>
-		<paper-material elevation="1" class="paper-font-body2">
+		<paper-material >
 	  		<% page.posts.each(function(post){ %>
-				<p> <a class="post-title" href="<%= url_for(post.path) %>"><%= post.title %></a> </p>
+          <paper-item>
+            <a class="post-title" href="<%= url_for(post.path) %>"><%= post.title %></a>
+            <span class="post-time"><%= date(post.date) %></span>
+          </paper-item>
 		  	<% }) %>
 		</paper-material>
   <!-- post -->
   <% } else if( pageType == 'post') {%>
-	  	<paper-material elevation="1" class="paper-font-body2">
+	  <paper-material >
 			<p><%- page.content %></p>
 		</paper-material>
   <% } %>
 
   <!-- pagination -->
-  <% if (page.total > 1){ %>
-
+  <% if (page.total > 1 && pageType=='index'){ %>
     <div id="page-nav">
 
      <% if (page.prev || page.next) { %>
-      <% if (page.prev){ %>   
-        <a class="btn btn-default" href="<%- url_for(page.prev.path) %>" ><i class="fa fa-chevron-left"></i><%= __('prev') %></a>
+      <% if (page.prev){ %>  
+        <paper-button class="pagination-btn" onclick="javascript:window.location.href='<%- url_for(page.prev_link) %>';"><%= __('prev') %></paper-button> 
       <% } else { %>
-        <a class="btn btn-default disabled"><i class="fa fa-chevron-left"></i><%= __('prev') %></a>
+        <paper-button class="pagination-btn" disabled="true" onclick="javascript:window.location.href='<%- url_for(page.prev_link) %>';"><%= __('prev') %></paper-button> 
       <% } %>
 
       <% if (page.next){ %>
-        <a class="btn btn-default" href="<%- url_for(page.next.path) %>" ><%= __('next') %><i class="fa fa-chevron-right"></i></a>   
+        <paper-button class="pagination-btn" onclick="javascript:window.location.href='<%- url_for(page.next_link) %>';"><%= __('next') %></paper-button> 
       <% } else { %>
-        <a class="btn btn-default disabled"><%= __('next') %><i class="fa fa-chevron-right"></i></a>
+        <paper-button class="pagination-btn" disabled="true" onclick="javascript:window.location.href='<%- url_for(page.next_link) %>';"><%= __('next') %></paper-button> 
       <% } %>
     <% }  %>
 
     </div>
-
   <% } %>
 
   <%- partial('_partial/footer') %>
