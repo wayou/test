@@ -5,7 +5,7 @@
   
   <link href="/test/atom.xml" rel="self"/>
   <link href="http://wayou.github.io/test/test//"/>
-  <updated>2015-06-21T07:38:46.465Z</updated>
+  <updated>2015-06-21T07:54:53.042Z</updated>
   <id>http://wayou.github.io/test/test//</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title><![CDATA[Hello World]]></title>
     <link href="http://wayou.github.io/test/test/2015/06/21/hello-world/"/>
     <id>http://wayou.github.io/test/test/2015/06/21/hello-world/</id>
-    <published>2015-06-21T07:38:46.465Z</published>
-    <updated>2015-06-21T07:38:46.465Z</updated>
+    <published>2015-06-21T07:54:53.042Z</published>
+    <updated>2015-06-21T07:54:53.042Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -43,8 +43,8 @@
     <title><![CDATA[Hello World]]></title>
     <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy/</id>
-    <published>2015-06-21T07:38:46.464Z</published>
-    <updated>2015-06-21T07:38:46.464Z</updated>
+    <published>2015-06-21T07:54:53.041Z</published>
+    <updated>2015-06-21T07:54:53.041Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -67,8 +67,8 @@
     <title><![CDATA[Hello World]]></title>
     <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy - Copy/</id>
-    <published>2015-06-21T07:38:46.464Z</published>
-    <updated>2015-06-21T07:38:46.464Z</updated>
+    <published>2015-06-21T07:54:53.041Z</published>
+    <updated>2015-06-21T07:54:53.041Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -91,80 +91,8 @@
     <title><![CDATA[Hello World]]></title>
     <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20-%20Copy%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy - Copy - Copy/</id>
-    <published>2015-06-21T07:38:46.463Z</published>
-    <updated>2015-06-21T07:38:46.463Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20-%20Copy%20(2)/"/>
-    <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy - Copy (2)/</id>
-    <published>2015-06-21T07:38:46.463Z</published>
-    <updated>2015-06-21T07:38:46.463Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20(3)/"/>
-    <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy (3)/</id>
-    <published>2015-06-21T07:38:46.462Z</published>
-    <updated>2015-06-21T07:38:46.462Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20(2)%20-%20Copy/"/>
-    <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy (2) - Copy/</id>
-    <published>2015-06-21T07:38:46.461Z</published>
-    <updated>2015-06-21T07:38:46.461Z</updated>
+    <published>2015-06-21T07:54:53.041Z</published>
+    <updated>2015-06-21T07:54:53.041Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -187,8 +115,80 @@
     <title><![CDATA[Hello World]]></title>
     <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20(2)/"/>
     <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy (2)/</id>
-    <published>2015-06-21T07:38:46.461Z</published>
-    <updated>2015-06-21T07:38:46.461Z</updated>
+    <published>2015-06-21T07:54:53.040Z</published>
+    <updated>2015-06-21T07:54:53.040Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20(3)/"/>
+    <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy (3)/</id>
+    <published>2015-06-21T07:54:53.040Z</published>
+    <updated>2015-06-21T07:54:53.040Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20-%20Copy%20(2)/"/>
+    <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy - Copy (2)/</id>
+    <published>2015-06-21T07:54:53.040Z</published>
+    <updated>2015-06-21T07:54:53.040Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://wayou.github.io/test/test/2015/06/21/hello-world%20-%20Copy%20(2)%20-%20Copy/"/>
+    <id>http://wayou.github.io/test/test/2015/06/21/hello-world - Copy (2) - Copy/</id>
+    <published>2015-06-21T07:54:53.039Z</published>
+    <updated>2015-06-21T07:54:53.039Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -212,7 +212,7 @@
     <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy - Copy/</id>
     <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.459Z</updated>
+    <updated>2015-06-21T07:54:53.038Z</updated>
     <content type="html"><![CDATA[<p>blah<br>blah</p>
 ]]></content>
     <summary type="html">
@@ -227,7 +227,7 @@
     <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy%20-%20Copy%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy - Copy - Copy/</id>
     <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.459Z</updated>
+    <updated>2015-06-21T07:54:53.038Z</updated>
     <content type="html"><![CDATA[<p>blah<br>blah</p>
 ]]></content>
     <summary type="html">
@@ -242,7 +242,7 @@
     <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy%20-%20Copy%20(2)/"/>
     <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy - Copy (2)/</id>
     <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.458Z</updated>
+    <updated>2015-06-21T07:54:53.038Z</updated>
     <content type="html"><![CDATA[<p>blah<br>blah</p>
 ]]></content>
     <summary type="html">
@@ -257,7 +257,7 @@
     <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy%20(3)/"/>
     <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy (3)/</id>
     <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.458Z</updated>
+    <updated>2015-06-21T07:54:53.037Z</updated>
     <content type="html"><![CDATA[<p>blah<br>blah</p>
 ]]></content>
     <summary type="html">
@@ -272,37 +272,7 @@
     <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy%20(2)/"/>
     <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy (2)/</id>
     <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.457Z</updated>
-    <content type="html"><![CDATA[<p>blah<br>blah</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>blah<br>blah</p>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[first article]]></title>
-    <link href="http://wayou.github.io/test/test/2015/06/05/first-article/"/>
-    <id>http://wayou.github.io/test/test/2015/06/05/first-article/</id>
-    <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.460Z</updated>
-    <content type="html"><![CDATA[<p>blah<br>blah</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>blah<br>blah</p>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[first article]]></title>
-    <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy/"/>
-    <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy/</id>
-    <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.460Z</updated>
+    <updated>2015-06-21T07:54:53.037Z</updated>
     <content type="html"><![CDATA[<p>blah<br>blah</p>
 ]]></content>
     <summary type="html">
@@ -317,7 +287,37 @@
     <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy%20(2)%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy (2) - Copy/</id>
     <published>2015-06-05T13:49:24.000Z</published>
-    <updated>2015-06-21T07:38:46.457Z</updated>
+    <updated>2015-06-21T07:54:53.036Z</updated>
+    <content type="html"><![CDATA[<p>blah<br>blah</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>blah<br>blah</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[first article]]></title>
+    <link href="http://wayou.github.io/test/test/2015/06/05/first-article/"/>
+    <id>http://wayou.github.io/test/test/2015/06/05/first-article/</id>
+    <published>2015-06-05T13:49:24.000Z</published>
+    <updated>2015-06-21T07:54:53.039Z</updated>
+    <content type="html"><![CDATA[<p>blah<br>blah</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>blah<br>blah</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[first article]]></title>
+    <link href="http://wayou.github.io/test/test/2015/06/05/first-article%20-%20Copy/"/>
+    <id>http://wayou.github.io/test/test/2015/06/05/first-article - Copy/</id>
+    <published>2015-06-05T13:49:24.000Z</published>
+    <updated>2015-06-21T07:54:53.039Z</updated>
     <content type="html"><![CDATA[<p>blah<br>blah</p>
 ]]></content>
     <summary type="html">
@@ -329,41 +329,10 @@
   
   <entry>
     <title><![CDATA[Angular条件路由]]></title>
-    <link href="http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular%20-%20Copy/"/>
-    <id>http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular - Copy/</id>
-    <published>2015-03-08T03:43:04.000Z</published>
-    <updated>2015-06-21T07:38:46.456Z</updated>
-    <content type="html"><![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
-<p>这样的路由控制当然可以由后端来做。</p>
-<a id="more"></a>
-<p>当使用了Angular这样的前端框架时，路由由前端控制并且是事先配好的（当然，这种情况下也不是说后端就不能控制路由了）。<br>一个典型的angular示例如下面代码所示：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> app = angular.module(<span class="string">'myApp'</span>, []);</span><br><span class="line"></span><br><span class="line">app.config([<span class="string">'$routeProvider'</span>,</span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">$routeProvider</span>) </span>&#123;</span><br><span class="line">        $routeProvider.</span><br><span class="line">        <span class="comment">//培训页面</span></span><br><span class="line">        when(<span class="string">'/home'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/home.html'</span>,</span><br><span class="line">            controller: <span class="string">'HomeCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        <span class="comment">//管理</span></span><br><span class="line">        when(<span class="string">'/auth'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/auth.html'</span>,</span><br><span class="line">            controller: <span class="string">'AuthCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        otherwise(&#123;</span><br><span class="line">            redirectTo: <span class="string">'/'</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">]);</span><br></pre></td></tr></table></figure></p>
-<p>这里不深入讨论完整的权限控制，用户当然可以手动更改URL来打开管理页面，但你可以选择不展示内容而是给个提示“无权限”之类的，总之这里不讨论，这里要说的就是我们有能力根据条件更改Angular路由的默认页面。</p>
-<p>如果我们不做作何处理，根据现在的配置，默认是打开培训页面。为了对已经通过培训的用户默认打开管理页面，首先我们要知道当前用户的身份，然后判断是否该跳转。</p>
-<p>Angular模块的<code>run</code>函数，是最接近主程序启动的地方，可以在这里进行判断与重定向。<br>所以更新后的代码如下：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> app = angular.module(<span class="string">'myApp'</span>, []);</span><br><span class="line"></span><br><span class="line">app.config([<span class="string">'$routeProvider'</span>,</span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">$routeProvider</span>) </span>&#123;</span><br><span class="line">        $routeProvider.</span><br><span class="line">        <span class="comment">//首页</span></span><br><span class="line">        when(<span class="string">'/home'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/home.html'</span>,</span><br><span class="line">            controller: <span class="string">'HomeCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        <span class="comment">//注册页</span></span><br><span class="line">        when(<span class="string">'/auth'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/auth.html'</span>,</span><br><span class="line">            controller: <span class="string">'AuthCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        otherwise(&#123;</span><br><span class="line">            redirectTo: <span class="string">'/'</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">]).run([<span class="string">'$location'</span>, <span class="string">'$http'</span>,</span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">$location, $http</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">        $http.get(<span class="string">'path/to/get/user/data'</span>).</span><br><span class="line">        success(<span class="function"><span class="keyword">function</span>(<span class="params">res</span>) </span>&#123;</span><br><span class="line">            <span class="comment">//拿到用户数据，判断用户类型，然后定位到相应的页面</span></span><br><span class="line">            <span class="keyword">if</span> (res.member) &#123;</span><br><span class="line">                <span class="comment">//如果是合格用户，转向管理页面</span></span><br><span class="line">                $location.path(<span class="string">'/auth'</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;).</span><br><span class="line">        error(<span class="function"><span class="keyword">function</span>(<span class="params">err</span>) </span>&#123;</span><br><span class="line">            <span class="built_in">console</span>.log(err);</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">]);</span><br></pre></td></tr></table></figure>
-<p>向模块添加<code>run</code>函数，首先发起一个请求获取用户数据，根据返回的数据进行判断，然后使用<code>$location.path</code>来重新路由。</p>
-<h1 id="references">references</h1><ul>
-<li><a href="https://docs.angularjs.org/guide/module" target="_blank" rel="external">Angular Modeule Run Blocks</a> </li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
-<p>这样的路由控制当然可以由后端来做。</p>]]>
-    
-    </summary>
-    
-      <category term="anular" scheme="http://wayou.github.io/test/test/tags/anular/"/>
-    
-      <category term="技术" scheme="http://wayou.github.io/test/test/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Angular条件路由]]></title>
     <link href="http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular%20-%20Copy%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular - Copy - Copy/</id>
     <published>2015-03-08T03:43:04.000Z</published>
-    <updated>2015-06-21T07:38:46.455Z</updated>
+    <updated>2015-06-21T07:54:53.035Z</updated>
     <content type="html"><![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
 <p>这样的路由控制当然可以由后端来做。</p>
 <a id="more"></a>
@@ -394,7 +363,7 @@
     <link href="http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular%20-%20Copy%20-%20Copy%20-%20Copy/"/>
     <id>http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular - Copy - Copy - Copy/</id>
     <published>2015-03-08T03:43:04.000Z</published>
-    <updated>2015-06-21T07:38:46.455Z</updated>
+    <updated>2015-06-21T07:54:53.035Z</updated>
     <content type="html"><![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
 <p>这样的路由控制当然可以由后端来做。</p>
 <a id="more"></a>
@@ -425,7 +394,38 @@
     <link href="http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular%20-%20Copy%20-%20Copy%20(2)/"/>
     <id>http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular - Copy - Copy (2)/</id>
     <published>2015-03-08T03:43:04.000Z</published>
-    <updated>2015-06-21T07:38:46.454Z</updated>
+    <updated>2015-06-21T07:54:53.034Z</updated>
+    <content type="html"><![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
+<p>这样的路由控制当然可以由后端来做。</p>
+<a id="more"></a>
+<p>当使用了Angular这样的前端框架时，路由由前端控制并且是事先配好的（当然，这种情况下也不是说后端就不能控制路由了）。<br>一个典型的angular示例如下面代码所示：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> app = angular.module(<span class="string">'myApp'</span>, []);</span><br><span class="line"></span><br><span class="line">app.config([<span class="string">'$routeProvider'</span>,</span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">$routeProvider</span>) </span>&#123;</span><br><span class="line">        $routeProvider.</span><br><span class="line">        <span class="comment">//培训页面</span></span><br><span class="line">        when(<span class="string">'/home'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/home.html'</span>,</span><br><span class="line">            controller: <span class="string">'HomeCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        <span class="comment">//管理</span></span><br><span class="line">        when(<span class="string">'/auth'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/auth.html'</span>,</span><br><span class="line">            controller: <span class="string">'AuthCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        otherwise(&#123;</span><br><span class="line">            redirectTo: <span class="string">'/'</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">]);</span><br></pre></td></tr></table></figure></p>
+<p>这里不深入讨论完整的权限控制，用户当然可以手动更改URL来打开管理页面，但你可以选择不展示内容而是给个提示“无权限”之类的，总之这里不讨论，这里要说的就是我们有能力根据条件更改Angular路由的默认页面。</p>
+<p>如果我们不做作何处理，根据现在的配置，默认是打开培训页面。为了对已经通过培训的用户默认打开管理页面，首先我们要知道当前用户的身份，然后判断是否该跳转。</p>
+<p>Angular模块的<code>run</code>函数，是最接近主程序启动的地方，可以在这里进行判断与重定向。<br>所以更新后的代码如下：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> app = angular.module(<span class="string">'myApp'</span>, []);</span><br><span class="line"></span><br><span class="line">app.config([<span class="string">'$routeProvider'</span>,</span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">$routeProvider</span>) </span>&#123;</span><br><span class="line">        $routeProvider.</span><br><span class="line">        <span class="comment">//首页</span></span><br><span class="line">        when(<span class="string">'/home'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/home.html'</span>,</span><br><span class="line">            controller: <span class="string">'HomeCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        <span class="comment">//注册页</span></span><br><span class="line">        when(<span class="string">'/auth'</span>, &#123;</span><br><span class="line">            templateUrl: <span class="string">'views/auth.html'</span>,</span><br><span class="line">            controller: <span class="string">'AuthCtrl'</span></span><br><span class="line">        &#125;).</span><br><span class="line">        otherwise(&#123;</span><br><span class="line">            redirectTo: <span class="string">'/'</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">]).run([<span class="string">'$location'</span>, <span class="string">'$http'</span>,</span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params">$location, $http</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">        $http.get(<span class="string">'path/to/get/user/data'</span>).</span><br><span class="line">        success(<span class="function"><span class="keyword">function</span>(<span class="params">res</span>) </span>&#123;</span><br><span class="line">            <span class="comment">//拿到用户数据，判断用户类型，然后定位到相应的页面</span></span><br><span class="line">            <span class="keyword">if</span> (res.member) &#123;</span><br><span class="line">                <span class="comment">//如果是合格用户，转向管理页面</span></span><br><span class="line">                $location.path(<span class="string">'/auth'</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;).</span><br><span class="line">        error(<span class="function"><span class="keyword">function</span>(<span class="params">err</span>) </span>&#123;</span><br><span class="line">            <span class="built_in">console</span>.log(err);</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">]);</span><br></pre></td></tr></table></figure>
+<p>向模块添加<code>run</code>函数，首先发起一个请求获取用户数据，根据返回的数据进行判断，然后使用<code>$location.path</code>来重新路由。</p>
+<h1 id="references">references</h1><ul>
+<li><a href="https://docs.angularjs.org/guide/module" target="_blank" rel="external">Angular Modeule Run Blocks</a> </li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
+<p>这样的路由控制当然可以由后端来做。</p>]]>
+    
+    </summary>
+    
+      <category term="anular" scheme="http://wayou.github.io/test/test/tags/anular/"/>
+    
+      <category term="技术" scheme="http://wayou.github.io/test/test/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Angular条件路由]]></title>
+    <link href="http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular%20-%20Copy%20(3)/"/>
+    <id>http://wayou.github.io/test/test/2015/03/08/2015-03-08-redirect-before-routing-in-angular - Copy (3)/</id>
+    <published>2015-03-08T03:43:04.000Z</published>
+    <updated>2015-06-21T07:54:53.034Z</updated>
     <content type="html"><![CDATA[<p>对于Web程序通常会有这样的需求：针对不同的情况，我们希望用户进入站点后打开不同的页面。<br>写一下Web程序的时候，会有这样的需求：根据用户的类型，将用户导向不同的页面。<br>譬如，对于非注册用户，打开站点后导向到注册页面;<br>或者，以之前做的一个项目为例，对于普通用户，打开培训页面，而培训合格的用户，我们希望默认打开管理页面。</p>
 <p>这样的路由控制当然可以由后端来做。</p>
 <a id="more"></a>

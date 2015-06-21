@@ -9,18 +9,20 @@ body {
     color: #333;
 }
 
-.post-title {
-    text-decoration: none;
-}
-
-paper-material{
+paper-material {
     max-width: 900px;
 }
 
 
 /*pagination*/
-#page-nav .page-number,#page-nav a{
-	color: white;
+
+#page-nav {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#page-nav .page-number, #page-nav a {
+    color: white;
     background: #3E50B4;
     font-size: 1em;
     text-transform: uppercase;
@@ -28,7 +30,34 @@ paper-material{
     margin: 1px;
     text-decoration: none;
 }
-#page-nav .page-number.current{
-	color: #555;
+
+#page-nav .page-number.current {
+    color: #555;
     background: #eee;
+}
+
+a {
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+a.post-title {
+    line-height: normal;
+}
+
+.article-more-link {
+    float: right;
+}
+
+.pagination-btn {
+    background: #fff;
+    /*color: #fff;*/
+}
+
+.post-time {
+    float: right;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 40px;
 }
