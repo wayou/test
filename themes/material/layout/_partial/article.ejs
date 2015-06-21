@@ -1,44 +1,85 @@
-<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-    <%- partial('post/category') %>
-  </div>
-  <div class="article-inner">
-    <%- partial('post/gallery') %>
-    <% if (post.link || post.title){ %>
-      <header class="article-header">
-        <%- partial('post/title', {class_name: 'article-title'}) %>
-      </header>
-    <% } %>
-    <div class="article-entry" itemprop="articleBody">
-      <% if (post.excerpt && index){ %>
-        <%- post.excerpt %>
-        <% if (theme.excerpt_link){ %>
-          <p class="article-more-link">
-            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
-          </p>
-        <% } %>
-      <% } else { %>
-        <%- post.content %>
-      <% } %>
-    </div>
-    <footer class="article-footer">
-      <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link">Share</a>
-      <% if (post.comments && config.disqus_shortname){ %>
-        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
-      <% } %>
-      <%- partial('post/tag') %>
-    </footer>
-  </div>
-  <% if (!index){ %>
-    <%- partial('post/nav') %>
-  <% } %>
-</article>
+<paper-toolbar class="tall" id="mainToolbar">
 
-<% if (!index && post.comments && config.disqus_shortname){ %>
-<section id="comments">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</section>
-<% } %>
+  <!-- index -->
+  <% if( pageType == 'index') {%>
+  	<paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
+  <!-- not index, show the back button -->
+  <% } else {%>
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  <% } %>
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+  <!-- <paper-icon-button icon="more-vert"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  <% if( pageType == 'index') {%>
+	  <!-- Application name -->
+	  <div class="middle paper-font-display2 app-name"> <%= config.title %> </div>
+	  <% if( theme.slogan ) {%>
+	  <div class="bottom title"> <%= theme.slogan %> </div>
+	  <% } %>
+  <!-- archives -->
+  <% } else if( pageType == 'archives') {%>
+	  <div class="bottom title"><%= __('Archives') %> </div>
+  <!-- post -->
+  <% } else if( pageType == 'post') {%>
+	  <div class="bottom title"> <%= page.title %> </div>
+  <% } %>
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  <% if( pageType == 'index') {%>
+		<% page.posts.each(function(post){ %>
+			<paper-material elevation="1" class="paper-font-body2">
+				<h1> <a class="post-title" href="<%= url_for(post.path) %>"><%= post.title %></a> </h1>
+				<p><%- page.excerpt %></p>
+			</paper-material>
+		<% }) %>
+  <!-- archives -->
+  <% } else if( pageType == 'archives') {%>
+		<paper-material elevation="1" class="paper-font-body2">
+	  		<% page.posts.each(function(post){ %>
+				<p> <a class="post-title" href="<%= url_for(post.path) %>"><%= post.title %></a> </p>
+		  	<% }) %>
+		</paper-material>
+  <!-- post -->
+  <% } else if( pageType == 'post') {%>
+	  	<paper-material elevation="1" class="paper-font-body2">
+			<p><%- page.content %></p>
+		</paper-material>
+  <% } %>
+
+  <!-- pagination -->
+  <% if (page.total > 1){ %>
+
+    <div id="page-nav">
+
+     <% if (page.prev || page.next) { %>
+      <% if (page.prev){ %>   
+        <a class="btn btn-default" href="<%- url_for(page.prev.path) %>" ><i class="fa fa-chevron-left"></i><%= __('prev') %></a>
+      <% } else { %>
+        <a class="btn btn-default disabled"><i class="fa fa-chevron-left"></i><%= __('prev') %></a>
+      <% } %>
+
+      <% if (page.next){ %>
+        <a class="btn btn-default" href="<%- url_for(page.next.path) %>" ><%= __('next') %><i class="fa fa-chevron-right"></i></a>   
+      <% } else { %>
+        <a class="btn btn-default disabled"><%= __('next') %><i class="fa fa-chevron-right"></i></a>
+      <% } %>
+    <% }  %>
+
+    </div>
+
+  <% } %>
+
+  <%- partial('_partial/footer') %>
+</div>
+
+
+
