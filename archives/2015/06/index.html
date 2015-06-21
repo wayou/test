@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,6 +34,13 @@
   <!-- Tile icon for Win8 (144x144) -->
   <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
 
+  <!-- rss -->
+  
+  <link rel="alternative" href="/atom.xml" title="刘哇勇的部落格" type="application/atom+xml">
+  
+  <!-- favicon -->
+  
+
   <link rel="stylesheet" href="/test/css/main.css" type="text/css">
 
   <script src="/test/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
@@ -41,83 +49,157 @@
 
 </head>
 
-</head>
 
-  <body unresolved class="fullbleed layout vertical">
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      background-color: var(--paper-deep-orange-500, #ff5722);
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
   <template is="dom-bind" id="app">
 
     <paper-drawer-panel id="paperDrawerPanel">
-      <div drawer>
 
-        <!-- Drawer Toolbar -->
-        <paper-toolbar id="drawerToolbar">
-          <span class="paper-font-title">Menu</span>
-        </paper-toolbar>
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar id="drawerToolbar">
+	  <span class="paper-font-title"> 刘哇勇的部落格 </span>
+	</paper-toolbar>
 
-        <!-- Drawer Content -->
-          <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
-              <a  href="/">
-                <iron-icon icon="home"></iron-icon>
-                <span>Home</span>
-              </a>
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
 
-              <a  href="/">
-                <iron-icon icon="info"></iron-icon>
-                <span>Users</span>
-              </a>
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/test/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
 
-              <a  href="/">
-                <iron-icon icon="mail"></iron-icon>
-                <span>Contact</span>
-              </a>
-          </paper-menu>
-      </div>
       <paper-header-panel main mode="waterfall-tall">
 
-        <!-- Main Toolbar -->
-        <paper-toolbar id="mainToolbar">
-          <paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
-          <span class="flex"></span>
+         <paper-scroll-header-panel condenses>
 
-          <!-- Toolbar icons -->
-          <paper-icon-button icon="refresh"></paper-icon-button>
-          <paper-icon-button icon="search"></paper-icon-button>
+          <paper-toolbar class="tall" id="mainToolbar">
 
-          <!-- Application name -->
-          <div class="middle paper-font-display2 app-name">刘哇勇的部落格</div>
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
 
-          <!-- Application sub title -->
-          <div class="bottom title"></div>
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+  <!-- <paper-icon-button icon="more-vert"></paper-icon-button> -->
 
-        </paper-toolbar>
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title">Archives </div>
+  <!-- post -->
+  
+  
+</paper-toolbar>
 
-        <!-- Main Content -->
-        <div class="content">
-          <section data-route="home">
-              <paper-material elevation="1">
+<!-- Main Content -->
+<div class="content">
 
+  <!-- index -->
+  
+		<paper-material elevation="1" class="paper-font-body2">
+	  		
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy - Copy/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy - Copy - Copy/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy - Copy (2)/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy (3)/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy (2) - Copy/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/21/hello-world - Copy (2)/">Hello World</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/05/first-article - Copy - Copy/">first article</a> </p>
+		  	
+				<p> <a class="post-title" href="/test/2015/06/05/first-article - Copy - Copy - Copy/">first article</a> </p>
+		  	
+		</paper-material>
+  <!-- post -->
+  
 
-                <p class="paper-font-body2">Looking for more Web App layouts? Check out our <a href="https://github.com/PolymerElements/app-layout-templates">layouts</a> collection. You can also <a href="http://polymerelements.github.io/app-layout-templates/">preview</a> them live.</p>
-              </paper-material>
-              
-              <paper-material elevation="1">
-                <p class="paper-font-body2">This is another card.</p>
-              </paper-material>
+  <!-- pagination -->
+  
 
-              <paper-material elevation="1" class="paper-font-body2">
-                <h1 id="license">License</h1>
-                <p>THIS SOFTWARE </p>
-              </paper-material>
+    <div id="page-nav">
 
-            </section>
-        </div>
-      </paper-header-panel>
-    </paper-drawer-panel>
-  </template>
+     
+      
+        <a class="btn btn-default disabled"><i class="fa fa-chevron-left"></i>prev</a>
+      
+
+      
+        <a class="btn btn-default" href="/" >next<i class="fa fa-chevron-right"></i></a>   
+      
+    
+
+    </div>
+
+  
 
   <script src="/test/js/main.js" type="text/javascript"></script>
 
-</body>
+</div>
 
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
 
 </html>
